@@ -1,0 +1,15 @@
+cat > .dockerignore << EOF
+node_modules
+npm-debug.log
+.git
+.gitignore
+README.md
+.env
+.env.local
+*.md
+.gitattributes
+Dockerfile
+docker-compose.yml
+build.sh
+deploy.sh
+EOF
