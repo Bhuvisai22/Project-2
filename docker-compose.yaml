@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  myproject2:
+    image: myproject2:latest
+    container_name: myproject2container
+    ports:
+      - "80:80"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
